@@ -1,0 +1,375 @@
+body
+{
+	background: #000;
+	font-family: Georgia, "MS Serif", "New York", "Times New Roman", Times, serif;
+}
+
+#page
+{
+	width: 832px;
+	margin: 0 auto;
+  position: relative;
+}
+
+#header
+{
+	height: 118px;
+}
+
+h1 span
+{
+	display: none;
+}
+
+#paper
+{
+	background: #000 url(../images/body_repeat.jpg) top left repeat-y;
+	width: 673px;
+	float: right;
+}
+
+#paper-topper
+{
+	background: transparent url(../images/body_top.jpg) top left no-repeat;
+	
+}
+
+#paper-footer
+{
+	background: transparent url(../images/body_bottom.jpg) bottom left no-repeat;
+	height: auto !important;
+	height: 631px;
+	min-height: 631px;
+	padding-bottom: 35px;
+}
+
+#paper h2
+{
+	padding: 25px 0 35px 33px;
+	font-size: 25px;
+	font-weight: normal;
+	color: #38352C;
+	font-family: Georgia, "MS Serif", "New York", "Times New Roman", Times, serif;
+}
+
+#content
+{
+	float: left;
+	width: 420px;
+	margin: 0 0 0 45px;
+	color: #1B191A;
+	font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#credits
+{
+  margin: 0;
+	color: #1B191A;
+	font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#content h2
+{
+  padding: 20px 0 15px;
+}
+
+#content h3
+{
+	font-style: italic;
+	color: #7E765F;
+	font-weight: bold;
+	padding-bottom: 8px;
+	font-family: Georgia, "MS Serif", "New York", "Times New Roman", Times, serif;
+}
+
+#content p, #content ul
+{
+	padding-bottom: 1.2em;
+  line-height: 13px;
+}
+
+#sub-nav
+{
+	margin-left: 480px;
+	width: 170px;
+	font-size: 11px;
+	font-weight: bold;
+  text-align: center;
+}
+
+#sub-nav ul
+{
+	width: 160px;
+  margin-left: 4px;
+	border: 1px solid #B1A887;
+  border-collapse: collapse;
+}
+
+#sub-nav li
+{
+	padding: 8px;
+  border-collapse: collapse;
+	border: 1px solid #B1A887;
+  text-align: left;
+}
+
+#sub-nav li.active
+{
+  
+  background: #ded8af;
+}
+
+#sub-nav li a
+{
+	color: #6F6855;
+	text-decoration: none;
+  display: block
+}
+
+#sub-nav li a:hover, #sub-nav li.active a
+{
+	color: #d34141;
+}
+
+#sub-nav .cast_members .person
+{
+	float: left;
+	width: 85px;
+  height: 115px;
+}
+
+#sub-nav .person a
+{
+	font-size: 10px;
+	color: #7E765F;
+	text-decoration: none;  
+}
+
+#sub-nav .person a.active, #sub-nav .person a:hover
+{
+ color: #c0524b; 
+}
+
+
+#sub-nav .person img
+{
+  border: 1px solid #5e5943;
+}
+
+#sub-nav .person a.active img, #sub-nav .person a:hover img
+{
+  border: 1px solid #c0524b;
+}
+
+#sub-nav .person a span
+{
+  font-weight: normal;
+}
+
+#sub-nav .team_members .person
+{
+  padding-bottom: 10px;
+}
+
+#navbar
+{
+  position: absolute;
+  top: 118px;
+  left: 0;
+	background: transparent url(../images/nav_bg.jpg) top left no-repeat;
+	width: 159px;
+	height: 544px;
+	min-height: 544px;
+}
+
+#navbar
+{
+	padding: 88px 0 0 58px;
+}
+
+#navbar div
+{
+	display: block;
+  float: left;
+  clear: left;
+	margin: 0;
+  line-height: 1em;
+  padding: 0;
+}
+
+#navbar div a
+{
+	text-indent: -9000px;
+	margin: 0;
+	width: 101px;
+	display: block;
+}
+
+#navbar #nav-film a, #navbar li#nav-film
+{
+	background: url(../images/nav/film.jpg) top left no-repeat;
+	height: 28px;
+}
+
+#navbar #nav-film a:hover, #navbar #nav-film a.active
+{
+	background: url(../images/nav/film_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-cast a, #navbar li#nav-cast
+{
+	background: url(../images/nav/cast.jpg) top left no-repeat;
+	height: 28px;
+}
+
+#navbar #nav-cast a:hover, #navbar #nav-cast a.active
+{
+	background: url(../images/nav/cast_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-team a, #navbar li#nav-team
+{
+	background: url(../images/nav/team.jpg) top left no-repeat;
+	height: 32px;
+}
+
+#navbar #nav-team a:hover, #navbar #nav-team a.active
+{
+	background: url(../images/nav/team_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-behind a, #navbar li#nav-behind
+{
+	background: url(../images/nav/behind_the_scenes.jpg) top left no-repeat;
+	height: 42px;
+}
+
+#navbar #nav-behind a:hover, #navbar #nav-behind a.active
+{
+	background: url(../images/nav/behind_the_scenes_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-festivals a, #navbar li#nav-festivals
+{
+	background: url(../images/nav/festivals_awards.jpg) top left no-repeat;
+	height: 47px;
+}
+
+#navbar #nav-festivals a:hover, #navbar #nav-festivals a.active
+{
+	background: url(../images/nav/festivals_awards_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-press a, #navbar li#nav-press
+{
+	background: url(../images/nav/press.jpg) top left no-repeat;
+	height: 31px;
+}
+
+#navbar #nav-press a:hover, #navbar #nav-press a.active
+{
+	background: url(../images/nav/press_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-store a, #navbar li#nav-store
+{
+	background: url(../images/nav/store.jpg) top left no-repeat;
+	height: 30px;
+}
+
+#navbar #nav-store a:hover, #navbar #nav-store a.active
+{
+	background: url(../images/nav/store_over.jpg) top left no-repeat;
+}
+
+#navbar #nav-contact a, #navbar li#nav-contact
+{
+	background: url(../images/nav/contact.jpg) top left no-repeat;
+	height: 30px;
+}
+
+#navbar #nav-contact a:hover, #navbar #nav-contact a.active
+{
+	background: url(../images/nav/contact_over.jpg) top left no-repeat;
+}
+
+
+
+.headshot
+{
+  float: left;
+  margin: 0 15px 0 0;
+  width: 120px;
+  text-align: center;
+}
+
+#team .headshot
+{
+	width: 90px;
+}
+
+.headshot img
+{
+  margin-bottom: 5px;
+  border: 1px solid #5f5a48;
+}
+
+#credits dd
+{
+  margin-bottom: 10px;
+}
+
+#credits dt
+{
+  text-transform: lowercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #c0524b;
+}
+
+#credits h3
+{
+  margin: 20px 0 5px;
+	font-style: italic;
+	color: #7E765F;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-family: Georgia, "MS Serif", "New York", "Times New Roman", Times, serif;
+}
+
+#content #bts_gallery li
+{
+  float: left;
+  margin: 5px 15px 5px 0;
+}
+
+#content #bts_gallery li a
+{
+  display: block;
+  width: 90px;
+  text-align: center;
+}
+
+#content #bts_gallery li a img
+{
+  border: 1px solid #666;
+}
+
+#content #bts_gallery li a:hover img
+{
+  border: 1px solid #c0524b;
+}
+
+
+
+
+
+
+
+
+.clear
+{
+	clear: both;
+}
